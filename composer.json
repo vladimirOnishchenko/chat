@@ -1,0 +1,13 @@
+{
+    "name": "user/s-alte.local",
+    "require": {
+        "workerman/workerman": "^3.5",
+        "workerman/phpsocket.io": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "vlaimir Onishchenko",
+            "email": "vladimir@webboss.com.ua"
+        }
+    ]
+}

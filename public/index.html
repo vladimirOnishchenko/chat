@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script>
+        socket = new WebSocket("ws://127.0.0.1:8000/?group=16");
+        socket.onopen = function() {
+          console.log("Соединение установлено.");
+        };
+        
+        socket.onclose = function(event) {
+          if (event.wasClean) {
+            console.log('Соединение закрыто чисто');
+          } else {
+            console.log('Обрыв соединения'); // например, "убит" процесс сервера
+          }
+          console.log('Код: ' + event.code + ' причина: ' + event.reason);
+        };
+        
+        socket.onmessage = function(event) {
+            $('#list').append(event.data);
+          console.log("Получены данные " + event.data);
+        };
+        
+        socket.onerror = function(error) {
+          console.log("Ошибка " + error.message);
+        };
+        $(function(){
+            $("#chat").submit(function(){
+                var data = $(this).find('textarea').val();
+                var user = $(this).find('input').val();
+                var group = <?=$_GET['group']?>
+                $.ajax({
+                  method: "POST",
+                  url: "http://127.0.0.1:2345",
+                  data: {text:data, user:user, group:group}
+                })
+                .done(function(msg) {
+                   console.log( "Data Saved: " + msg );
+                });
+                return false;            
+            });
+        });
+        
+    </script>
+</head>
+<body>
+<div>
+<ul id="list">
+<li>text</li>
+</ul>
+</div>
+<form id="chat">
+<input name="user"/>
+<textarea name="text">
+
+</textarea>
+<input type="submit" value="ok"/>
+</form>
+</body>
+</html>

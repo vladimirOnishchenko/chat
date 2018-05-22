@@ -1,0 +1,97 @@
+2018-05-17 23:46:59 pid:1 exception 'Exception' with message 'You can't send(NULL) to client, you need to convert it to a string. ' in H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(338): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 H:\Openserver\OSPanel\domains\s-alte.local\start.php(24): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#3 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(662): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #39)
+#5 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 H:\Openserver\OSPanel\domains\s-alte.local\start.php(48): Workerman\Worker::runAll()
+#11 {main}
+2018-05-17 23:46:59 pid:1 Worker process terminated
+2018-05-17 23:47:31 pid:1 exception 'Exception' with message 'You can't send(NULL) to client, you need to convert it to a string. ' in H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(338): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 H:\Openserver\OSPanel\domains\s-alte.local\start.php(24): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#3 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(662): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 H:\Openserver\OSPanel\domains\s-alte.local\start.php(48): Workerman\Worker::runAll()
+#11 {main}
+2018-05-17 23:47:31 pid:1 Worker process terminated
+2018-05-17 23:48:04 pid:1 exception 'Exception' with message 'You can't send(NULL) to client, you need to convert it to a string. ' in H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(338): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 H:\Openserver\OSPanel\domains\s-alte.local\start.php(24): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#3 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(662): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#5 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 H:\Openserver\OSPanel\domains\s-alte.local\start.php(48): Workerman\Worker::runAll()
+#11 {main}
+2018-05-17 23:48:04 pid:1 Worker process terminated
+2018-05-17 23:48:23 pid:1 exception 'Exception' with message 'You can't send(NULL) to client, you need to convert it to a string. ' in H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Protocols\Websocket.php:232
+Stack trace:
+#0 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(338): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 H:\Openserver\OSPanel\domains\s-alte.local\start.php(24): Workerman\Connection\TcpConnection->send(NULL)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#3 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Connection\TcpConnection.php(662): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"user":"tester...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Events\Select.php(286): call_user_func_array(Array, Array)
+#6 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(2130): Workerman\Events\Select->loop()
+#7 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1189): Workerman\Worker->run()
+#8 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(1132): Workerman\Worker::forkWorkersForWindows()
+#9 H:\Openserver\OSPanel\domains\s-alte.local\vendor\workerman\workerman\Worker.php(466): Workerman\Worker::forkWorkers()
+#10 H:\Openserver\OSPanel\domains\s-alte.local\start.php(48): Workerman\Worker::runAll()
+#11 {main}
+2018-05-17 23:48:23 pid:1 Worker process terminated
+2018-05-18 00:03:33 pid:1 Worker process terminated with ERROR: E_ERROR "Call to a member function send() on a non-object in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 27"
+2018-05-18 00:03:42 pid:1 Worker process terminated with ERROR: E_ERROR "Call to a member function send() on a non-object in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 27"
+2018-05-18 00:03:47 pid:1 Worker process terminated with ERROR: E_ERROR "Call to a member function send() on a non-object in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 27"
+2018-05-18 00:49:48 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:49 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:51 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:52 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:54 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:55 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 00:49:57 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'AsyncTcpConnection' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 80"
+2018-05-18 01:44:30 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'Timer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 14"
+2018-05-18 01:44:32 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'Timer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 14"
+2018-05-18 01:44:34 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'Timer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 14"
+2018-05-18 01:44:35 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'Timer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 14"
+2018-05-18 02:33:50 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:33:52 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:33:54 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:33:56 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:33:58 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:33:59 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:01 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:02 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:04 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:05 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:07 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:09 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:11 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:13 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:15 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:17 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:19 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:21 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:22 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:24 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:26 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:28 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
+2018-05-18 02:34:30 pid:1 Worker process terminated with ERROR: E_ERROR "Class 'WebServer' not found in H:\Openserver\OSPanel\domains\s-alte.local\start.php on line 40"
